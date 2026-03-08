@@ -26,7 +26,7 @@ URL: ${article.url}
       to: UserEmail,
       subject: "Daily Ai News Update",
       text: `
-        here Your Daily Briefing ${emailBody}
+  Here Your Daily Briefing ${emailBody}
       `
     })
   } catch (error) {

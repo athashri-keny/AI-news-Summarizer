@@ -57,6 +57,7 @@ async function StreamOutput(qurey:string) {
     const res = await run(newsAgent , qurey , {stream: true})
 
     res.toTextStream({compatibleWithNodeStreams: true}).pipe(process.stdout)
+    process.exit(0)
 
 }
 
