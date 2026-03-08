@@ -3,7 +3,7 @@ name: Daily News Briefing
 on:
   schedule:
     - cron: "30 3 * * *"  # 9:00 AM IST daily
-  workflow_dispatch: on     # manual trigger button ✅
+  workflow_dispatch:     # manual trigger button ✅
 
 jobs:
   run-news-agent:
