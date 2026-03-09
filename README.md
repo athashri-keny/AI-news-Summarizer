@@ -1,4 +1,4 @@
-#  AI News Sender
+#  AI News Summarizer
 
 A multi-agent news pipeline that fetches the latest headlines, summarizes them using AI, and delivers a daily briefing to your email every morning at 9AM IST — automatically.
 
