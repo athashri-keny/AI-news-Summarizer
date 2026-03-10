@@ -25,4 +25,5 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWS_APIKEY: ${{ secrets.NEWS_APIKEY }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
         run: npx tsx agent/newsAgent.ts  # 👈 point to your entry file
