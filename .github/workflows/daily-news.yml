@@ -23,6 +23,6 @@ jobs:
       - name: Run News Agent
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          NEWS_APIKEY: ${{ secrets.NEWS_APIKEY }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
         run: npx tsx agent/newsAgent.ts  # 👈 point to your entry file
